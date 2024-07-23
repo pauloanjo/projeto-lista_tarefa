@@ -41,7 +41,7 @@ function deletar(id){
 function marcarTarefa(id){
     var item = document.getElementById(id);
     var classe = item.getAttribute("class");
-    console.log(classe);
+    //console.log(classe);
 
     if (classe == 'item'){
         item.classList.add('clicado')
